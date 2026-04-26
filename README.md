@@ -4,7 +4,7 @@ SQL Intelligent Agent, Supporting Local Deployment and Cloud Deployment
 ## Basic
 ```shell
 # Clone the repository
-git clone (https://github.com/Reversev/Agent-for-SQL.git
+git clone https://github.com/Reversev/Agent-for-SQL.git
 cd Agent-for-SQL
 
 pip install -r requirements.txt
