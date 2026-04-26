@@ -36,9 +36,14 @@ python agent.py
 ```
 
 ##  view langchain process
-view [https://smith.langchain.com/](https://smith.langchain.com/)
+Monitor platform: view [https://smith.langchain.com/](https://smith.langchain.com/)
 
 ## LangGraph
+Run the code:
+```shell
+python3 agent.py --draw-graph --output graph.png
+```
+
 ![](https://github.com/Reversev/Agent-for-SQL/blob/main/agent_graph.png)
 
 
