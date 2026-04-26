@@ -1,7 +1,19 @@
 # Agent-for-SQL
 SQL Intelligent Agent, Supporting Local Deployment and Cloud Deployment
 
-## Create .env file and paste the code:
+## Basic
+```shell
+# Clone the repository
+git clone (https://github.com/Reversev/Agent-for-SQL.git
+cd Agent-for-SQL
+
+pip install -r requirements.txt
+
+# Set up environment variables
+cp .env.example .env
+```
+
+## Modify .env file:
 ```
 # OpenAI API Configuration
 OPENAI_API_KEY=your_api_key_here
@@ -16,6 +28,7 @@ LANGSMITH_ENDPOINT=https://api.smith.langchain.com
 LANGCHAIN_API_KEY=lsv2_pt_xxx
 LANGCHAIN_PROJECT=your_project_name
 ```
+
 ## Run Agent
 You can modified the contents on ```test_queries``` variable in line 130 of ```agent.py```, and run agent.
 ```shell
