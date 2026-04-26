@@ -26,7 +26,7 @@ python agent.py
 view [https://smith.langchain.com/](https://smith.langchain.com/)
 
 ## LangGraph
-[][https://github.com/Reversev/Agent-for-SQL/agent_graph.png](https://github.com/Reversev/Agent-for-SQL/blob/main/agent_graph.png]
+[](https://github.com/Reversev/Agent-for-SQL/agent_graph.png](https://github.com/Reversev/Agent-for-SQL/blob/main/agent_graph.png)
 
 
 
