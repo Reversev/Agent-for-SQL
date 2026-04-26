@@ -1,7 +1,7 @@
 # Agent-for-SQL
 SQL Intelligent Agent, Supporting Local Deployment and Cloud Deployment
 
-# create .env file and paste the code:
+## Create .env file and paste the code:
 ```
 # OpenAI API Configuration
 OPENAI_API_KEY=your_api_key_here
@@ -16,12 +16,17 @@ LANGSMITH_ENDPOINT=https://api.smith.langchain.com
 LANGCHAIN_API_KEY=lsv2_pt_xxx
 LANGCHAIN_PROJECT=your_project_name
 ```
-# Run Agent
+## Run Agent
 You can modified the contents on ```test_queries``` variable in line 130 of ```agent.py```, and run agent.
 ```shell
 python agent.py
 ```
 
-# view langchain process
+##  view langchain process
 view [https://smith.langchain.com/](https://smith.langchain.com/)
+
+## LangGraph
+[](https://github.com/Reversev/Agent-for-SQL/agent_graph.png)
+
+
 
